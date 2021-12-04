@@ -7,25 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE38BCCD275B84DF00310066 /* AddFavouriteCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE38BCCB275B84DF00310066 /* AddFavouriteCardTableViewCell.swift */; };
+		CE38BCCE275B84DF00310066 /* AddFavouriteCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE38BCCC275B84DF00310066 /* AddFavouriteCardTableViewCell.xib */; };
+		CE38BCD1275B84F500310066 /* MobilePaymentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE38BCCF275B84F500310066 /* MobilePaymentTableViewCell.swift */; };
+		CE38BCD2275B84F500310066 /* MobilePaymentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE38BCD0275B84F500310066 /* MobilePaymentTableViewCell.xib */; };
+		CE38BCD5275B850F00310066 /* ServiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE38BCD3275B850F00310066 /* ServiceTableViewCell.swift */; };
+		CE38BCD6275B850F00310066 /* ServiceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE38BCD4275B850F00310066 /* ServiceTableViewCell.xib */; };
+		CE83E7F62759EB5E005AEB0D /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE83E7F42759EB5E005AEB0D /* CollectionViewCell.swift */; };
+		CE83E7F72759EB5E005AEB0D /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE83E7F52759EB5E005AEB0D /* CollectionViewCell.xib */; };
+		CE83E7F92759EC19005AEB0D /* post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE83E7F82759EC19005AEB0D /* post.swift */; };
+		CE83E7FC275A1CD4005AEB0D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE83E7FA275A1CD4005AEB0D /* TableViewCell.swift */; };
+		CE83E7FD275A1CD4005AEB0D /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE83E7FB275A1CD4005AEB0D /* TableViewCell.xib */; };
+		CE83E7FF275A1D2B005AEB0D /* cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE83E7FE275A1D2B005AEB0D /* cell.swift */; };
 		CED6C1C52759675B002A0608 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6C1C42759675B002A0608 /* AppDelegate.swift */; };
 		CED6C1C72759675B002A0608 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6C1C62759675B002A0608 /* SceneDelegate.swift */; };
-		CED6C1C92759675B002A0608 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6C1C82759675B002A0608 /* ViewController.swift */; };
 		CED6C1CC2759675B002A0608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED6C1CA2759675B002A0608 /* Main.storyboard */; };
 		CED6C1CF2759675B002A0608 /* appTestApelsin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CED6C1CD2759675B002A0608 /* appTestApelsin.xcdatamodeld */; };
 		CED6C1D12759675F002A0608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED6C1D02759675F002A0608 /* Assets.xcassets */; };
 		CED6C1D42759675F002A0608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED6C1D22759675F002A0608 /* LaunchScreen.storyboard */; };
+		CED6C1DD275969F6002A0608 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6C1DB275969F6002A0608 /* HomeViewController.swift */; };
+		CED6C1DE275969F6002A0608 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CED6C1DC275969F6002A0608 /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE38BCCB275B84DF00310066 /* AddFavouriteCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFavouriteCardTableViewCell.swift; sourceTree = "<group>"; };
+		CE38BCCC275B84DF00310066 /* AddFavouriteCardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddFavouriteCardTableViewCell.xib; sourceTree = "<group>"; };
+		CE38BCCF275B84F500310066 /* MobilePaymentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobilePaymentTableViewCell.swift; sourceTree = "<group>"; };
+		CE38BCD0275B84F500310066 /* MobilePaymentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MobilePaymentTableViewCell.xib; sourceTree = "<group>"; };
+		CE38BCD3275B850F00310066 /* ServiceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceTableViewCell.swift; sourceTree = "<group>"; };
+		CE38BCD4275B850F00310066 /* ServiceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ServiceTableViewCell.xib; sourceTree = "<group>"; };
+		CE83E7F42759EB5E005AEB0D /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		CE83E7F52759EB5E005AEB0D /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		CE83E7F82759EC19005AEB0D /* post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = post.swift; sourceTree = "<group>"; };
+		CE83E7FA275A1CD4005AEB0D /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		CE83E7FB275A1CD4005AEB0D /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		CE83E7FE275A1D2B005AEB0D /* cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cell.swift; sourceTree = "<group>"; };
 		CED6C1C12759675B002A0608 /* appTestApelsin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appTestApelsin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED6C1C42759675B002A0608 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CED6C1C62759675B002A0608 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CED6C1C82759675B002A0608 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CED6C1CB2759675B002A0608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CED6C1CE2759675B002A0608 /* appTestApelsin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = appTestApelsin.xcdatamodel; sourceTree = "<group>"; };
 		CED6C1D02759675F002A0608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CED6C1D32759675F002A0608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CED6C1D52759675F002A0608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED6C1DB275969F6002A0608 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CED6C1DC275969F6002A0608 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +65,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE38BCC7275B840200310066 /* appUtils */ = {
+			isa = PBXGroup;
+			children = (
+				CED6C1CA2759675B002A0608 /* Main.storyboard */,
+				CED6C1D02759675F002A0608 /* Assets.xcassets */,
+				CED6C1D22759675F002A0608 /* LaunchScreen.storyboard */,
+				CED6C1CD2759675B002A0608 /* appTestApelsin.xcdatamodeld */,
+			);
+			name = appUtils;
+			sourceTree = "<group>";
+		};
+		CE38BCC8275B841D00310066 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CED6C1DB275969F6002A0608 /* HomeViewController.swift */,
+				CED6C1DC275969F6002A0608 /* HomeViewController.xib */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		CE38BCC9275B843A00310066 /* Datas */ = {
+			isa = PBXGroup;
+			children = (
+				CE83E7F82759EC19005AEB0D /* post.swift */,
+				CE83E7FE275A1D2B005AEB0D /* cell.swift */,
+			);
+			name = Datas;
+			sourceTree = "<group>";
+		};
+		CE38BCCA275B845800310066 /* controller'sCell */ = {
+			isa = PBXGroup;
+			children = (
+				CE38BCDA275B854A00310066 /* LittleDetails */,
+				CE83E7FA275A1CD4005AEB0D /* TableViewCell.swift */,
+				CE83E7FB275A1CD4005AEB0D /* TableViewCell.xib */,
+				CE83E7F42759EB5E005AEB0D /* CollectionViewCell.swift */,
+				CE83E7F52759EB5E005AEB0D /* CollectionViewCell.xib */,
+			);
+			name = "controller'sCell";
+			sourceTree = "<group>";
+		};
+		CE38BCD7275B851E00310066 /* addCard */ = {
+			isa = PBXGroup;
+			children = (
+				CE38BCCB275B84DF00310066 /* AddFavouriteCardTableViewCell.swift */,
+				CE38BCCC275B84DF00310066 /* AddFavouriteCardTableViewCell.xib */,
+			);
+			name = addCard;
+			sourceTree = "<group>";
+		};
+		CE38BCD8275B852D00310066 /* mobilePayment */ = {
+			isa = PBXGroup;
+			children = (
+				CE38BCCF275B84F500310066 /* MobilePaymentTableViewCell.swift */,
+				CE38BCD0275B84F500310066 /* MobilePaymentTableViewCell.xib */,
+			);
+			name = mobilePayment;
+			sourceTree = "<group>";
+		};
+		CE38BCD9275B853C00310066 /* serviceCell */ = {
+			isa = PBXGroup;
+			children = (
+				CE38BCD3275B850F00310066 /* ServiceTableViewCell.swift */,
+				CE38BCD4275B850F00310066 /* ServiceTableViewCell.xib */,
+			);
+			name = serviceCell;
+			sourceTree = "<group>";
+		};
+		CE38BCDA275B854A00310066 /* LittleDetails */ = {
+			isa = PBXGroup;
+			children = (
+				CE38BCD9275B853C00310066 /* serviceCell */,
+				CE38BCD8275B852D00310066 /* mobilePayment */,
+				CE38BCD7275B851E00310066 /* addCard */,
+			);
+			name = LittleDetails;
+			sourceTree = "<group>";
+		};
 		CED6C1B82759675B002A0608 = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +162,13 @@
 		CED6C1C32759675B002A0608 /* appTestApelsin */ = {
 			isa = PBXGroup;
 			children = (
+				CE38BCCA275B845800310066 /* controller'sCell */,
+				CE38BCC9275B843A00310066 /* Datas */,
+				CE38BCC8275B841D00310066 /* controllers */,
+				CE38BCC7275B840200310066 /* appUtils */,
 				CED6C1C42759675B002A0608 /* AppDelegate.swift */,
 				CED6C1C62759675B002A0608 /* SceneDelegate.swift */,
-				CED6C1C82759675B002A0608 /* ViewController.swift */,
-				CED6C1CA2759675B002A0608 /* Main.storyboard */,
-				CED6C1D02759675F002A0608 /* Assets.xcassets */,
-				CED6C1D22759675F002A0608 /* LaunchScreen.storyboard */,
 				CED6C1D52759675F002A0608 /* Info.plist */,
-				CED6C1CD2759675B002A0608 /* appTestApelsin.xcdatamodeld */,
 			);
 			path = appTestApelsin;
 			sourceTree = "<group>";
@@ -128,9 +231,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE38BCD2275B84F500310066 /* MobilePaymentTableViewCell.xib in Resources */,
 				CED6C1D42759675F002A0608 /* LaunchScreen.storyboard in Resources */,
+				CE83E7FD275A1CD4005AEB0D /* TableViewCell.xib in Resources */,
 				CED6C1D12759675F002A0608 /* Assets.xcassets in Resources */,
 				CED6C1CC2759675B002A0608 /* Main.storyboard in Resources */,
+				CED6C1DE275969F6002A0608 /* HomeViewController.xib in Resources */,
+				CE38BCD6275B850F00310066 /* ServiceTableViewCell.xib in Resources */,
+				CE83E7F72759EB5E005AEB0D /* CollectionViewCell.xib in Resources */,
+				CE38BCCE275B84DF00310066 /* AddFavouriteCardTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +250,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE38BCD1275B84F500310066 /* MobilePaymentTableViewCell.swift in Sources */,
+				CE83E7F62759EB5E005AEB0D /* CollectionViewCell.swift in Sources */,
 				CED6C1CF2759675B002A0608 /* appTestApelsin.xcdatamodeld in Sources */,
-				CED6C1C92759675B002A0608 /* ViewController.swift in Sources */,
+				CE38BCCD275B84DF00310066 /* AddFavouriteCardTableViewCell.swift in Sources */,
+				CE38BCD5275B850F00310066 /* ServiceTableViewCell.swift in Sources */,
 				CED6C1C52759675B002A0608 /* AppDelegate.swift in Sources */,
+				CE83E7F92759EC19005AEB0D /* post.swift in Sources */,
 				CED6C1C72759675B002A0608 /* SceneDelegate.swift in Sources */,
+				CE83E7FF275A1D2B005AEB0D /* cell.swift in Sources */,
+				CE83E7FC275A1CD4005AEB0D /* TableViewCell.swift in Sources */,
+				CED6C1DD275969F6002A0608 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
