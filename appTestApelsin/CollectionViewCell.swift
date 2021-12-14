@@ -9,13 +9,14 @@ import UIKit
 
 class CollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var cardLabel: UILabel!
-
+    
+    var items : Array<Item> = Array()
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        
     }
-
-    func configure(with item: Item) {
-        cardLabel.text = item.label
-    }
+    
 }
+

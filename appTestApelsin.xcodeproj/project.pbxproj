@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1369DE00275BD2FC0000577A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1369DDFF275BD2FC0000577A /* Extensions.swift */; };
+		13C1C468275F25F20038A1BB /* PanController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C1C467275F25F20038A1BB /* PanController.swift */; };
+		13C1C46B275F26B20038A1BB /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C1C46A275F26B20038A1BB /* ContainerViewController.swift */; };
 		CE38BCCD275B84DF00310066 /* AddFavouriteCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE38BCCB275B84DF00310066 /* AddFavouriteCardTableViewCell.swift */; };
 		CE38BCCE275B84DF00310066 /* AddFavouriteCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE38BCCC275B84DF00310066 /* AddFavouriteCardTableViewCell.xib */; };
 		CE38BCD1275B84F500310066 /* MobilePaymentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE38BCCF275B84F500310066 /* MobilePaymentTableViewCell.swift */; };
@@ -16,8 +19,6 @@
 		CE83E7F62759EB5E005AEB0D /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE83E7F42759EB5E005AEB0D /* CollectionViewCell.swift */; };
 		CE83E7F72759EB5E005AEB0D /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE83E7F52759EB5E005AEB0D /* CollectionViewCell.xib */; };
 		CE83E7F92759EC19005AEB0D /* post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE83E7F82759EC19005AEB0D /* post.swift */; };
-		CE83E7FC275A1CD4005AEB0D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE83E7FA275A1CD4005AEB0D /* TableViewCell.swift */; };
-		CE83E7FD275A1CD4005AEB0D /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE83E7FB275A1CD4005AEB0D /* TableViewCell.xib */; };
 		CE83E7FF275A1D2B005AEB0D /* cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE83E7FE275A1D2B005AEB0D /* cell.swift */; };
 		CED6C1C52759675B002A0608 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6C1C42759675B002A0608 /* AppDelegate.swift */; };
 		CED6C1C72759675B002A0608 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6C1C62759675B002A0608 /* SceneDelegate.swift */; };
@@ -26,10 +27,12 @@
 		CED6C1D12759675F002A0608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED6C1D02759675F002A0608 /* Assets.xcassets */; };
 		CED6C1D42759675F002A0608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED6C1D22759675F002A0608 /* LaunchScreen.storyboard */; };
 		CED6C1DD275969F6002A0608 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6C1DB275969F6002A0608 /* HomeViewController.swift */; };
-		CED6C1DE275969F6002A0608 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CED6C1DC275969F6002A0608 /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1369DDFF275BD2FC0000577A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		13C1C467275F25F20038A1BB /* PanController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanController.swift; sourceTree = "<group>"; };
+		13C1C46A275F26B20038A1BB /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 		CE38BCCB275B84DF00310066 /* AddFavouriteCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFavouriteCardTableViewCell.swift; sourceTree = "<group>"; };
 		CE38BCCC275B84DF00310066 /* AddFavouriteCardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddFavouriteCardTableViewCell.xib; sourceTree = "<group>"; };
 		CE38BCCF275B84F500310066 /* MobilePaymentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobilePaymentTableViewCell.swift; sourceTree = "<group>"; };
@@ -39,8 +42,6 @@
 		CE83E7F42759EB5E005AEB0D /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		CE83E7F52759EB5E005AEB0D /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		CE83E7F82759EC19005AEB0D /* post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = post.swift; sourceTree = "<group>"; };
-		CE83E7FA275A1CD4005AEB0D /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		CE83E7FB275A1CD4005AEB0D /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		CE83E7FE275A1D2B005AEB0D /* cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cell.swift; sourceTree = "<group>"; };
 		CED6C1C12759675B002A0608 /* appTestApelsin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appTestApelsin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED6C1C42759675B002A0608 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -51,7 +52,6 @@
 		CED6C1D32759675F002A0608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CED6C1D52759675F002A0608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CED6C1DB275969F6002A0608 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		CED6C1DC275969F6002A0608 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +65,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13C1C469275F26860038A1BB /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				1369DDFF275BD2FC0000577A /* Extensions.swift */,
+				13C1C467275F25F20038A1BB /* PanController.swift */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
 		CE38BCC7275B840200310066 /* appUtils */ = {
 			isa = PBXGroup;
 			children = (
@@ -79,8 +88,9 @@
 		CE38BCC8275B841D00310066 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				13C1C469275F26860038A1BB /* Support */,
 				CED6C1DB275969F6002A0608 /* HomeViewController.swift */,
-				CED6C1DC275969F6002A0608 /* HomeViewController.xib */,
+				13C1C46A275F26B20038A1BB /* ContainerViewController.swift */,
 			);
 			name = controllers;
 			sourceTree = "<group>";
@@ -98,8 +108,6 @@
 			isa = PBXGroup;
 			children = (
 				CE38BCDA275B854A00310066 /* LittleDetails */,
-				CE83E7FA275A1CD4005AEB0D /* TableViewCell.swift */,
-				CE83E7FB275A1CD4005AEB0D /* TableViewCell.xib */,
 				CE83E7F42759EB5E005AEB0D /* CollectionViewCell.swift */,
 				CE83E7F52759EB5E005AEB0D /* CollectionViewCell.xib */,
 			);
@@ -136,9 +144,9 @@
 		CE38BCDA275B854A00310066 /* LittleDetails */ = {
 			isa = PBXGroup;
 			children = (
-				CE38BCD9275B853C00310066 /* serviceCell */,
-				CE38BCD8275B852D00310066 /* mobilePayment */,
 				CE38BCD7275B851E00310066 /* addCard */,
+				CE38BCD8275B852D00310066 /* mobilePayment */,
+				CE38BCD9275B853C00310066 /* serviceCell */,
 			);
 			name = LittleDetails;
 			sourceTree = "<group>";
@@ -233,10 +241,8 @@
 			files = (
 				CE38BCD2275B84F500310066 /* MobilePaymentTableViewCell.xib in Resources */,
 				CED6C1D42759675F002A0608 /* LaunchScreen.storyboard in Resources */,
-				CE83E7FD275A1CD4005AEB0D /* TableViewCell.xib in Resources */,
 				CED6C1D12759675F002A0608 /* Assets.xcassets in Resources */,
 				CED6C1CC2759675B002A0608 /* Main.storyboard in Resources */,
-				CED6C1DE275969F6002A0608 /* HomeViewController.xib in Resources */,
 				CE38BCD6275B850F00310066 /* ServiceTableViewCell.xib in Resources */,
 				CE83E7F72759EB5E005AEB0D /* CollectionViewCell.xib in Resources */,
 				CE38BCCE275B84DF00310066 /* AddFavouriteCardTableViewCell.xib in Resources */,
@@ -251,15 +257,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE38BCD1275B84F500310066 /* MobilePaymentTableViewCell.swift in Sources */,
+				13C1C468275F25F20038A1BB /* PanController.swift in Sources */,
+				13C1C46B275F26B20038A1BB /* ContainerViewController.swift in Sources */,
 				CE83E7F62759EB5E005AEB0D /* CollectionViewCell.swift in Sources */,
 				CED6C1CF2759675B002A0608 /* appTestApelsin.xcdatamodeld in Sources */,
 				CE38BCCD275B84DF00310066 /* AddFavouriteCardTableViewCell.swift in Sources */,
 				CE38BCD5275B850F00310066 /* ServiceTableViewCell.swift in Sources */,
 				CED6C1C52759675B002A0608 /* AppDelegate.swift in Sources */,
 				CE83E7F92759EC19005AEB0D /* post.swift in Sources */,
+				1369DE00275BD2FC0000577A /* Extensions.swift in Sources */,
 				CED6C1C72759675B002A0608 /* SceneDelegate.swift in Sources */,
 				CE83E7FF275A1D2B005AEB0D /* cell.swift in Sources */,
-				CE83E7FC275A1CD4005AEB0D /* TableViewCell.swift in Sources */,
 				CED6C1DD275969F6002A0608 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,11 +417,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = appTestApelsin/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -436,11 +444,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = appTestApelsin/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

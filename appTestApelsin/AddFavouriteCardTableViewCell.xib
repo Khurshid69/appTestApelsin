@@ -11,62 +11,57 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="175" id="KGk-i7-Jjw" customClass="AddFavouriteCardTableViewCell" customModule="appTestApelsin" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="525" height="175"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="107" id="KGk-i7-Jjw" customClass="AddFavouriteCardTableViewCell" customModule="appTestApelsin" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="383" height="107"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="525" height="175"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="383" height="107"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nx5-Rv-kXR">
-                        <rect key="frame" x="10" y="10" width="505" height="155"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UM0-ei-7ha">
-                                <rect key="frame" x="24" y="21" width="457" height="113"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" imagePlacement="trailing" title="  Sevimli kartani qo'shing" imagePadding="25" titleAlignment="center">
-                                    <imageReference key="image" image="plus.circle" catalog="system" symbolScale="large" renderingMode="hierarchical-single">
-                                        <hierarchicalColors>
-                                            <color red="1" green="0.50696347230000005" blue="0.15476999899999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <color systemColor="secondaryLabelColor"/>
-                                            <color systemColor="tertiaryLabelColor"/>
-                                        </hierarchicalColors>
-                                    </imageReference>
-                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="27" scale="default"/>
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="15"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerColor" value="black"/>
-                                </userDefinedRuntimeAttributes>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UM0-ei-7ha">
+                        <rect key="frame" x="20" y="20" width="343" height="64"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="UM0-ei-7ha" secondAttribute="trailing" constant="24" id="CHz-0t-qCR"/>
-                            <constraint firstItem="UM0-ei-7ha" firstAttribute="top" secondItem="nx5-Rv-kXR" secondAttribute="top" constant="21" id="M9w-4V-y14"/>
-                            <constraint firstAttribute="bottom" secondItem="UM0-ei-7ha" secondAttribute="bottom" constant="21" id="VrZ-hA-TMr"/>
-                            <constraint firstItem="UM0-ei-7ha" firstAttribute="leading" secondItem="nx5-Rv-kXR" secondAttribute="leading" constant="24" id="YYO-4I-pon"/>
+                            <constraint firstAttribute="height" constant="64" id="Zpu-cf-DbO"/>
                         </constraints>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" imagePlacement="trailing" title="Sevimli kartani qo'shing" imagePadding="23" cornerStyle="medium" titleAlignment="center">
+                            <imageReference key="image" image="plus.circle" catalog="system" symbolScale="medium" renderingMode="hierarchical-single">
+                                <hierarchicalColors>
+                                    <color red="1" green="0.50696347230000005" blue="0.15476999899999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color systemColor="secondaryLabelColor"/>
+                                    <color systemColor="tertiaryLabelColor"/>
+                                </hierarchicalColors>
+                            </imageReference>
+                            <backgroundConfiguration key="background">
+                                <color key="strokeColor" systemColor="systemGray5Color"/>
+                            </backgroundConfiguration>
+                            <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="26" scale="default"/>
+                            <fontDescription key="titleFontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="20"/>
+                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </buttonConfiguration>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                 <integer key="value" value="15"/>
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
-                    </view>
+                    </button>
                 </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 <constraints>
-                    <constraint firstItem="nx5-Rv-kXR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="CiW-RA-TIL"/>
-                    <constraint firstItem="nx5-Rv-kXR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="SmA-sN-8jr"/>
-                    <constraint firstAttribute="trailing" secondItem="nx5-Rv-kXR" secondAttribute="trailing" constant="10" id="Tm8-HI-A0q"/>
-                    <constraint firstAttribute="bottom" secondItem="nx5-Rv-kXR" secondAttribute="bottom" constant="10" id="tjH-p9-OHe"/>
+                    <constraint firstItem="UM0-ei-7ha" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="2hS-mH-opP"/>
+                    <constraint firstAttribute="bottom" secondItem="UM0-ei-7ha" secondAttribute="bottom" constant="20" id="jBh-mb-Axe"/>
+                    <constraint firstAttribute="trailing" secondItem="UM0-ei-7ha" secondAttribute="trailing" constant="20" id="l6a-Bw-Dxj"/>
+                    <constraint firstItem="UM0-ei-7ha" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="vaO-Cy-CxI"/>
                 </constraints>
+                <userDefinedRuntimeAttributes>
+                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                        <integer key="value" value="15"/>
+                    </userDefinedRuntimeAttribute>
+                </userDefinedRuntimeAttributes>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
-            <point key="canvasLocation" x="280.43478260869568" y="110.82589285714285"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <point key="canvasLocation" x="81.884057971014499" y="66.629464285714278"/>
         </tableViewCell>
     </objects>
     <resources>
@@ -74,8 +69,8 @@
         <systemColor name="secondaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tertiaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
